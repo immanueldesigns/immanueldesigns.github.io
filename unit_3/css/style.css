@@ -1,0 +1,15 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+.container img {width: 100%;}
+
+h1 {font-size: 4em; color: #C00;}
+
+#slogan {font-style: italic;}
+
+li, p {font-size: 2em;}
+
+a {color: #C00; text-decoration: none;}
+
+a:hover {text-decoration: underline;}
