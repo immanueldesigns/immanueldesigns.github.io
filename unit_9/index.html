@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--  -->
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="description" content="Immanuel Designs, LLC specializes in responsive web sites and branding.">
+    <meta name="keywords" content="">
+    <meta name="author" content="Immanuel Designs, LLC">
+    <meta name="robots" content=""> 
+    <meta name="HandheldFriendly" content="true">  
+	<link rel="shortcut icon" href="favicon.ico">
+
+    <title>Immanuel Designs, LLC | Home</title>
+    
+	
+	<!-- social -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    
+    <!-- site -->
+    <link href="css/style.css" rel="stylesheet">
+    
+    <!-- fancybox css/js -->
+	<link href="fancybox/jquery.fancybox.css" rel="stylesheet" media="screen">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="fancybox/jquery.fancybox.pack.js"></script>
+	<script src="fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
+		
+	<!-- Optionally add helpers - button, thumbnail and/or media -->
+	<link href="fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5" rel="stylesheet" media="screen">
+	<script src="fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+	<script src="fancybox/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+	<link href="fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7" rel="stylesheet" media="screen">
+	<script src="fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+	
+	<script type = "text/javascript"> 
+		//fancybox
+		$(document).ready(function() {
+    	$(".fancybox").fancybox({
+        	openEffect: 'fade',
+			closeEffect: 'fade',
+			prevEffect: 'fade',
+			nextEffect: 'fade',
+			padding: 0,
+    		});
+    		
+    		//smooth scroll
+    		$('a[href*="#"]:not([href="#"])').click(function() {
+				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+					var target = $(this.hash);
+						target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+				if (target.length) {
+					$('html, body').animate({
+						scrollTop: target.offset().top
+        				}, 1000);
+						return false;
+      				}
+    			}	
+			});	
+		});
+	</script><!-- end fancy box and smooth scroll-->
+	        
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->  
+  </head>
+
+    
+	 <body>	 
+    	<header>  
+            <nav class="navbar">
+  				
+      			<a class="logo" href="#">
+                	<img src="images/logo.png" alt="Immanuel Designs logo">
+                </a>
+
+    			<ul>
+        			<li><a href="#home">Home</a></li>
+        			<li><a href="#services">Services</a></li>
+        			<li><a href="#projects">Projects</a></li>
+        			<li><a href="#contact">Contact</a></li>
+            	</ul>
+		</nav>
+	</header>    
+ 
+      
+    	<section id="home">
+    	<div class="container-fluid hero">
+        	<div class="container hero_content">
+    			<span class="symbol">&amp;</span>
+				<h1>WEB SITES<br><span class="red">BRANDING</span></h1>
+			</div><!--end hero_content-->
+        </div><!--end hero-->	
+        
+        	<div class="callout">
+        	<div class="container-fluid callout_content_container">
+            	<div class="callout_content">
+        			<h2>Our innovative concepts will empower your business<br> to attract more customers. Let <span class="black">Immanuel <em>Design</em></span> for you!</h2>
+            	</div><!--end callout content-->
+                
+                <div class="callout_button">
+            		<a href="#contact">Get a free consultation</a>
+            	</div><!--end calloutbutton-->
+            
+            </div><!--end callout_content container-->
+        	</div><!--end callout-->
+        </section><!--end home-->
+        
+       <section id="services">
+        <div class="container-fluid hire">
+        	<div class="hire_content">
+            <h3>Why You Should Hire Us</h3>
+            <div id="three_column" class="clearfix">
+                	<div class="column" id="column1">
+                    	<div>
+                    		<h4><span class="circle">1.</span> We respond well</h4>
+                        	<p><span class="red">Web design and development:</span> Society is on the go all the time, which means a responsive web site that adapts to tablet and mobile devices is a must to attract customers.</p>
+                    	</div>
+                    </div><!--end column-->
+                    
+                    <div class="column" id="column2">
+                    	<div>
+                        	<h4><span class="circle">2.</span> We represent well</h4>
+                        	<p><span class="red">Branding and graphic design:</span> Whether you need a logo, business cards or a background design for your Twitter page, we'll tailor everything to match your web site.</p>
+                    	</div>
+                    </div><!--end column-->
+                    
+                    <div class="column" id="column3">
+                    	<div>
+                        	<h4><span class="circle">3.</span> We focus on content</h4>
+                        	<p><span class="red">It's all about your message:</span> The foundation of your web site is your content. We'll offer solutions that will enhance your content as well as the site's design.</p>
+                    	</div>
+                    </div><!--end column-->
+            </div><!--end three-column -->
+            </div><!--end hire_content-->
+		</div><!--end hire-->
+        </section><!-- end services-->
+        
+        <section id="projects">
+        <div class="container-fluid projects">
+        	<div class="projects_content">
+            <h3>Projects</h3>
+            <div class="gallery">
+	            	
+                	<a class="fancybox" data-fancybox-group="gallery" href="images/1_b.jpg">
+						<img src="images/1_s.jpg" alt="" />
+					</a>
+	            	
+					<a class="fancybox" data-fancybox-group="gallery" href="images/2_b.jpg">
+						<img src="images/2_s.jpg" alt="" />
+					</a>
+					
+					<a class="fancybox" data-fancybox-group="gallery" href="images/3_b.jpg">
+						<img src="images/3_s.jpg" alt="" />
+					</a>
+					
+					<a class="fancybox" data-fancybox-group="gallery" href="images/4_b.jpg">
+						<img src="images/4_s.jpg" alt="" />
+					</a>
+					
+					
+					<a class="fancybox" data-fancybox-group="gallery" href="images/5_b.jpg">
+						<img src="images/5_s.jpg" alt="" />
+					</a>
+					
+					
+					<a class="fancybox" data-fancybox-group="gallery" href="images/6_b.jpg">
+						<img src="images/6_s.jpg" alt="" />
+					</a>
+					
+					
+					<a class="fancybox" data-fancybox-group="gallery" href="images/7_b.jpg">
+						<img src="images/7_s.jpg" alt="" />
+					</a>
+					
+					<a class="fancybox" data-fancybox-group="gallery" href="images/8_b.jpg">
+						<img src="images/8_s.jpg" alt="" />
+					</a>
+					
+					<a class="fancybox" data-fancybox-group="gallery" href="images/9_b.jpg">
+						<img src="images/9_s.jpg" alt="" />
+					</a>
+					
+					<a class="fancybox" data-fancybox-group="gallery" href="images/10_b.jpg">
+						<img src="images/10_s.jpg" alt="" />
+					</a>
+					
+					<a class="fancybox" data-fancybox-group="gallery" href="images/11_b.jpg">
+						<img src="images/11_s.jpg" alt="" />
+					</a>
+					
+					
+					<a class="fancybox" data-fancybox-group="gallery" href="images/12_b.jpg">
+						<img src="images/12_s.jpg" alt="" />
+					</a>	
+					
+				</div><!--end gallery -->
+            </div><!--end projects_content-->
+		</div><!--end projects-->
+        </section><!-- end projects-->
+
+
+        <section id="contact">
+	        <div class="container-fluid contact_container">
+	        	<div class="contact_content">
+	        		<h3>Let's Connect</h3>
+	        		
+	        		<form name="enq" class="form-horizontal" role="form" method="post" action="sendmail.php" onsubmit="return validation();">
+                    <fieldset>  
+                        
+                            <div class="input_container">
+	                            <label for="name">Name:</label>
+                                <input type="text" name="name" id="name" value="" class="input_text" placeholder="" />
+                                <div class="rule"></div>
+                            </div><!-- end input_container -->
+                        
+                            <div class="input_container">
+	                            <label for="email">E-mail:</label>
+                                <input type="text" name="email" id="email" value="" class="input_text" placeholder="" />
+                                <div class="rule"></div>
+                        	</div><!-- end input_container -->
+
+                         
+                            <div class="input_container">
+	                            <label for="message">Message:</label>
+                                <textarea rows="50" name="message" id="message" class="input_text input_message" placeholder=""></textarea>
+                                <div class="rule"></div>
+                            </div><!-- end input_container -->
+                       
+                            <div class="input_container">
+                                <input type="submit" value="Send your message" name="submit" id="submitButton" title="Click here to submit your message!" />                      
+                            </div><!-- end input_container -->
+                    </fieldset>
+                </form>	        
+
+				
+				<div class="social">
+					<span class="fa-stack fa-lg">
+        				<a href="https://www.facebook.com/immanueldesignsllc">
+							<i class="fa fa-circle fa-stack-2x"></i>
+							<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+						</a>
+					</span>
+					
+        			<span class="fa-stack fa-lg">
+        				<a href="http://www.twitter.com/whitenertiffany" target="_blank">
+							<i class="fa fa-circle fa-stack-2x"></i>
+							<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+        				</a>
+					</span>
+					
+        			<span class="fa-stack fa-lg">
+        				<a href="https://www.linkedin.com/company/immanuel-designs-llc" target="_blank">
+							<i class="fa fa-circle fa-stack-2x"></i>
+							<i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+        				</a>
+					</span>	
+				</div><!--end social-->
+				
+					
+	        	</div><!--end contact_content-->
+	        </div><!--end contact_container-->
+        </section> <!--end contact-->  
+        
+        
+        <footer>&copy; 2016. Immanuel Designs, LLC. All Rights Reserved.</footer>
+		
+    <!-- contact form--> 
+	<script src="js/validation.js"></script>
+    </body>
+</html>
